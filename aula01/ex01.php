@@ -22,7 +22,35 @@
     $turma = 2022;
     echo "[CURSO]: $curso<br>";
     echo "[DISCIPLINA]: $disciplina<br>";
-    echo "[TURMA]: $turma";
+    echo "[TURMA]: $turma<br>";
+    echo " this " ,  " string " , " was " , "made ",
+    "With multiple parameters<br><br>";
     ?>
+
+<?php
+ECHO "Hii, Brasil!<br>";
+echo "Hii, Brasil!<br>";
+EcHo "Hii, Brasil!<br><br>";
+?>
+
+<?php
+   $color = "red";
+   
+   echo "My car is" . $color . "<br>";
+   echo "My car is" . $color . "<br>";
+   echo "My car is" . $color . "<br><br>";
+   ?>
+
+<?php
+    $txt1 = "Learn PHP";
+    $txt2 = "W3Schools.com";
+    $x = 5;
+    $y = 4;
+
+    print "<h2>" . $txt1 . "</h2>";
+    print "Study PHP at  " . $txt2 . "<br>";
+    print $x + $y;
+    ?>
+
 </body>
 </html>
