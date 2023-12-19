@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                              "ce cp cd"
+                        "footer footer footer";
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.topo{
+    grid-area: topo;
+    border: 1px solid red;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "tp1 tp2 tp3 tp4";
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+.tp1{
+    grid-area: tp1;
+    border: 1px solid red;
+}
+
+.tp2{
+    grid-area: tp2;
+    border: 1px solid red;
+}
+
+.tp3{
+    grid-area: tp3;
+    border: 1px solid red;
+}
+
+.tp4{
+    grid-area: tp4;
+    border: 1px solid red;
+}
+
+.ce{
+    grid-area: ce;
+    border: 1px solid red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cp{
+    grid-area: cp;
+    border: 1px solid red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cd{
+    grid-area: cd;
+    border: 1px solid red;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "cd1 cd2"
+                         "cd3 cd4"
+                         "cd5 cd6"
+                         "cd7 cd8";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 35% 15%;
+}
+
+.cd1{
+    grid-area: cd1;
+    border: 1px solid red;
+}
+
+.cd2{
+    grid-area: cd2;
+    border: 1px solid red;
+}
+
+.cd3{
+    grid-area: cd3;
+    border: 1px solid red;
+}
+
+.cd4{
+    grid-area: cd4;
+    border: 1px solid red;
+}
+
+.cd5{
+    grid-area: cd5;
+    border: 1px solid red;
+}
+
+.cd6{
+    grid-area: cd6;
+    border: 1px solid red;
+}
+
+.cd7{
+    grid-area: cd7;
+    border: 1px solid red;
+}
+
+.cd8{
+    grid-area: cd8;
+    border: 1px solid red;
+}
+
+.footer{
+    grid-area: footer;
+    border: 1px solid red;
+    text-align: center;
+    padding: 20px 0;
+}
